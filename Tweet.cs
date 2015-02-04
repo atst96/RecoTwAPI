@@ -1,15 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Linq.Expressions;
-using System.Text;
 
 namespace RecoTwAPI
 {
     public class Tweet
     {
 		/// <summary>
-		/// 登録されたすべてのツイート情報を返します。
+		/// 登録されたすべてのツイート情報を取得します。
 		/// </summary>
 		/// <returns>StatusCollection</returns>
 		public static StatusCollection GetAllTweet()
@@ -19,7 +16,7 @@ namespace RecoTwAPI
 
 
 		/// <summary>
-		/// 指定ユーザのツイートを返します。
+		/// 指定ユーザのツイートを取得します。
 		/// </summary>
 		/// <param name="parameters">
 		/// sn: SCREEN_NAME[required]
@@ -34,7 +31,7 @@ namespace RecoTwAPI
 
 
 		/// <summary>
-		/// 登録されたツイート数を返します。
+		/// 登録されたツイート数を取得します。
 		/// </summary>
 		/// <returns>int</returns>
 		public static int Count()
@@ -44,7 +41,7 @@ namespace RecoTwAPI
 
 
 		/// <summary>
-		/// ツイートを登録します
+		/// ツイートを登録します。
 		/// </summary>
 		/// <param name="id">ツイートのID</param>
 		/// <returns>Status</returns>
