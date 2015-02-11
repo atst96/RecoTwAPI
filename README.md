@@ -14,7 +14,7 @@ https://github.com/JamesNK/Newtonsoft.Json
 * 登録されている全ツイートの取得  
 `Tweet.GetAllTweet();`
 
-* 特定のアカウントのツイートの取得
+* 特定のアカウントのツイートの取得  
 `Tweet.UserTweets(id => [アカウントのID]);`
 `Tweet.UserTweets(sn => [アカウントのScreenName]);`
 
